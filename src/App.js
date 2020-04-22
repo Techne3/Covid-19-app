@@ -3,6 +3,8 @@ import { Cards, Chart, CountryPicker } from "./components";
 import styles from "./app.module.css";
 import { fetchData } from "./api";
 
+// TODO: 26:35
+
 class App extends React.Component {
   state = {
     data: {},
