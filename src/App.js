@@ -4,6 +4,7 @@ import styles from "./app.module.css";
 import { fetchData } from "./api";
 
 class App extends React.Component {
+  //// fetch the data for the API
   async componentDidMount() {
     const data = await fetchData();
 
